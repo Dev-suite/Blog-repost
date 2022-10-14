@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: 800;
+    text-align: center;
+    --tw-text-opacity: 1;
+    color: rgba(17, 24, 39, var(--tw-text-opacity));
+    overflow-wrap: break-word;
+    font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 2rem;
+}
+
+.proxy-content {
+    width: 85%;
+    padding-bottom: 40px;
+}
+
+.proxy-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.proxy-content > ul > li > :last-child {
+    margin-bottom: 1.33333em;
+}
+
+.proxy-content > ul > li > :first-child {
+    margin-top: 1.33333em;
+}
+
+.proxy-content a {
+    color: rgb(17, 17, 17);
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.77778;
+    overflow-wrap: break-word;
+}
+
+.proxy-content li {
+    margin-top: 0.666667em;
+    margin-bottom: 0.666667em;
+}
+
+.proxy-content ul > li {
+    position: relative;
+    padding-left: 1.66667em;
+} 
+
+.proxy-content ul li::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(209, 213, 219);
+    border-radius: 50%;
+    width: 0.333333em;
+    height: 0.333333em;
+    top: calc(0.722222em);
+    left: 0.222222em;
+}
+
+.proxy-content ul li::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+.proxy {
+    color: rgb(17, 17, 17);
+    font-size: 1.5rem;
+    line-height: 1.77778;
+    font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    overflow-wrap: break-word;
+}
+
+.content .hea {
+  padding-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.par {
+  padding-top: 50px;
+}
+
+.bo {
+  font-weight: bold;
+}
+
+.amd input {
+  border: none;
+  width: 100%;
+  font-size: 22px;
+  outline: none;
+}
+
+.amd button {
+  width: 100px;
+  margin-top: 15px;
+  border: none;
+  background-color: #5c7dda;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.amd button:hover {
+  background-color: white;
+  color: #5c7dda;
+}
+
+.how {
+  font-size: 35px;
+  padding-top: 45px;
+}
+
+.how-to {
+  display: flex;
+  flex-direction: column;
+}
+
+.how-to img {
+  width: 100%;
+}
+
+.how-to div h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    padding-top: 30px !important;
+  }
+
+  .content h1 {
+    font-size: 25px;
+  }
+
+  .content .hea {
+    font-size: 22px !important;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    text-align: start;
+    font-size: 18px !important;
+  }
+
+  .how {
+    font-size: 25px;
+  }
+
+  .how-to div h2 {
+    font-size: 20px;
+  }
+
+  .step1 .amd {
+    padding-bottom: 20px;
+  }
+}
